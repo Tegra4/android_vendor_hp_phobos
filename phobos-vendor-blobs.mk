@@ -17,7 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/lib/hw/audio_policy.tegra4.so:system/lib/hw/audio_policy.tegra4.so \
     vendor/hp/phobos/proprietary/lib/hw/audio.primary.tegra4.so:system/lib/hw/audio.primary.tegra4.so \
-    vendor/hp/phobos/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/hp/phobos/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
     vendor/hp/phobos/proprietary/lib/libnvcapaudioservice.so:system/lib/libnvcapaudioservice.so \
     vendor/hp/phobos/proprietary/lib/libnvcapclk.so:system/lib/libnvcapclk.so \
@@ -27,6 +26,9 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/lib/libfcamdng.so:system/lib/libfcamdng.so \
     vendor/hp/phobos/proprietary/lib/libnvcamerahdr.so:system/lib/libnvcamerahdr.so \
     vendor/hp/phobos/proprietary/lib/libnvcam_imageencoder.so:system/lib/libnvcam_imageencoder.so \
+    vendor/hp/phobos/proprietary/lib/libnvmm_camera.so:system/lib/libnvmm_camera.so \
+    vendor/hp/phobos/proprietary/lib/libnvodm_imager.so:system/lib/libnvodm_imager.so \
+    vendor/hp/phobos/proprietary/lib/libnvsm.so:system/lib/libnvsm.so \
     vendor/hp/phobos/proprietary/lib/libopencv24_tegra.so:system/lib/libopencv24_tegra.so \
     vendor/hp/phobos/proprietary/lib/libtbb.so:system/lib/libtbb.so \
     vendor/hp/phobos/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
@@ -37,29 +39,29 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/hp/phobos/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/hp/phobos/proprietary/etc/enctune.conf:system/etc/enctune.conf \
-    vendor/hp/phobos/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
     vendor/hp/phobos/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
-    vendor/hp/phobos/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
     vendor/hp/phobos/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
-    vendor/hp/phobos/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
     vendor/hp/phobos/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
     vendor/hp/phobos/proprietary/lib/hw/gralloc.tegra4.so:system/lib/hw/gralloc.tegra4.so \
     vendor/hp/phobos/proprietary/lib/hw/hwcomposer.tegra4.so:system/lib/hw/hwcomposer.tegra4.so \
     vendor/hp/phobos/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
+    vendor/hp/phobos/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/hp/phobos/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/hp/phobos/proprietary/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
+    vendor/hp/phobos/proprietary/lib/libEGL_tegra_impl.so:system/lib/libEGL_tegra_impl.so \
+    vendor/hp/phobos/proprietary/lib/libGLESv1_CM_tegra_impl.so:system/lib/libGLESv1_CM_tegra_impl.so \
+    vendor/hp/phobos/proprietary/lib/libGLESv2_tegra_impl.so:system/lib/libGLESv2_tegra_impl.so \
     vendor/hp/phobos/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
     vendor/hp/phobos/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
     vendor/hp/phobos/proprietary/lib/libnvblit.so:system/lib/libnvblit.so \
     vendor/hp/phobos/proprietary/lib/libnvcap_video.so:system/lib/libnvcap_video.so \
-    vendor/hp/phobos/proprietary/lib/libnvmm_camera.so:system/lib/libnvmm_camera.so \
-    vendor/hp/phobos/proprietary/lib/libnvmm_audio.so:system/lib/libnvmm_audio.so \
     vendor/hp/phobos/proprietary/lib/libnvcms.so:system/lib/libnvcms.so \
     vendor/hp/phobos/proprietary/lib/libnvcpl.so:system/lib/libnvcpl.so \
     vendor/hp/phobos/proprietary/lib/libnvddk_2d.so:system/lib/libnvddk_2d.so \
     vendor/hp/phobos/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
     vendor/hp/phobos/proprietary/lib/libnvfusebypass.so:system/lib/libnvfusebypass.so \
     vendor/hp/phobos/proprietary/lib/libnvglsi.so:system/lib/libnvglsi.so \
+    vendor/hp/phobos/proprietary/lib/libnvmm_audio.so:system/lib/libnvmm_audio.so \
     vendor/hp/phobos/proprietary/lib/libnvmm_contentpipe.so:system/lib/libnvmm_contentpipe.so \
     vendor/hp/phobos/proprietary/lib/libnvmm_image.so:system/lib/libnvmm_image.so \
     vendor/hp/phobos/proprietary/lib/libnvmmlite_audio.so:system/lib/libnvmmlite_audio.so \
@@ -77,7 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/lib/libnvmm_vc1_video.so:system/lib/libnvmm_vc1_video.so \
     vendor/hp/phobos/proprietary/lib/libnvmm_video.so:system/lib/libnvmm_video.so \
     vendor/hp/phobos/proprietary/lib/libnvmm_writer.so:system/lib/libnvmm_writer.so \
-    vendor/hp/phobos/proprietary/lib/libnvodm_imager.so:system/lib/libnvodm_imager.so \
     vendor/hp/phobos/proprietary/lib/libnvodm_query.so:system/lib/libnvodm_query.so \
     vendor/hp/phobos/proprietary/lib/libnvoice.so:system/lib/libnvoice.so \
     vendor/hp/phobos/proprietary/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
@@ -87,14 +88,12 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/lib/libnvparser.so:system/lib/libnvparser.so \
     vendor/hp/phobos/proprietary/lib/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \
     vendor/hp/phobos/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
-    vendor/hp/phobos/proprietary/lib/libnvsm.so:system/lib/libnvsm.so \
     vendor/hp/phobos/proprietary/lib/libnvtestio.so:system/lib/libnvtestio.so \
     vendor/hp/phobos/proprietary/lib/libnvtestresults.so:system/lib/libnvtestresults.so \
     vendor/hp/phobos/proprietary/lib/libnvtnr.so:system/lib/libnvtnr.so \
     vendor/hp/phobos/proprietary/lib/libnvtvmr.so:system/lib/libnvtvmr.so \
     vendor/hp/phobos/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
     vendor/hp/phobos/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
-    vendor/hp/phobos/proprietary/lib/libsecure_hdcp_up.so:system/lib/libsecure_hdcp_up.so \
     vendor/hp/phobos/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/hp/phobos/proprietary/lib/libtsechdcp.so:system/lib/libtsechdcp.so \
     vendor/hp/phobos/proprietary/lib/libtsec_wrapper.so:system/lib/libtsec_wrapper.so \
@@ -103,7 +102,6 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
     vendor/hp/phobos/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
     vendor/hp/phobos/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
-    vendor/hp/phobos/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
     vendor/hp/phobos/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
     vendor/hp/phobos/proprietary/etc/hdcpsrm/hdcp1x.srm:system/etc/hdcpsrm/hdcp1x.srm \
     vendor/hp/phobos/proprietary/etc/hdcpsrm/hdcp2x.srm:system/etc/hdcpsrm/hdcp2x.srm \
