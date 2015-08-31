@@ -130,5 +130,4 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/etc/nvram_4334_ww.txt:system/etc/nvram_4334_ww.txt \
     vendor/hp/phobos/proprietary/vendor/firmware/bcm4334/fw_bcmdhd.bin:system/vendor/firmware/bcm4334/fw_bcmdhd.bin \
     vendor/hp/phobos/proprietary/bin/wlbwservice:system/bin/wlbwservice \
-    vendor/hp/phobos/proprietary/lib/libwlbwservice.so:system/lib/libwlbwservice.so \
-    vendor/hp/phobos/proprietary/bin/woloserviced:system/bin/woloserviced
+    vendor/hp/phobos/proprietary/lib/libwlbwservice.so:system/lib/libwlbwservice.so
