@@ -124,7 +124,10 @@ PRODUCT_COPY_FILES += \
     vendor/hp/phobos/proprietary/lib/libgov_gpufs.so:system/lib/libgov_gpufs.so \
     vendor/hp/phobos/proprietary/lib/libgov_tbc.so:system/lib/libgov_tbc.so \
     vendor/hp/phobos/proprietary/lib/libussrd.so:system/lib/libussrd.so \
-    vendor/hp/phobos/proprietary/etc/nvram_4334.txt:system/etc/nvram_4334.txt \
+    vendor/hp/phobos/proprietary/bin/wifi_loader.sh:system/bin/wifi_loader.sh \
+    vendor/hp/phobos/proprietary/etc/nvram_4334_id.txt:system/etc/nvram_4334_id.txt \
+    vendor/hp/phobos/proprietary/etc/nvram_4334_us.txt:system/etc/nvram_4334_us.txt \
+    vendor/hp/phobos/proprietary/etc/nvram_4334_ww.txt:system/etc/nvram_4334_ww.txt \
     vendor/hp/phobos/proprietary/vendor/firmware/bcm4334/fw_bcmdhd.bin:system/vendor/firmware/bcm4334/fw_bcmdhd.bin \
     vendor/hp/phobos/proprietary/bin/wlbwservice:system/bin/wlbwservice \
     vendor/hp/phobos/proprietary/lib/libwlbwservice.so:system/lib/libwlbwservice.so \
